@@ -1,56 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FarmEaze</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+
 </head>
+
 <body>
     <header>
+        <!-- The header HTML -->
         <nav>
-            <div id="FarmEaze">
-                <p>Farm<span>Ease</span></p>
-            </div>
-            <div id="Home & Products">
-                <ul style="list-style: none;">
-                    <li>Home</li>
-                    <li>Products</li>
-                </ul>
-            </div>
-            <button id="Shop Now 1">Shop Now</button>
-        </nav>
-                
-        
-
-    </header>
-    <main>
-        <div id="div1">
-            <div class="div1a">
-                <h1>FarmEaze, your one-<br> for all things <br> farming and agriculture!</h1>
-                <button id="Shop Now 2">Shop Now</button>
-                <p class="images">
-                    <img src="/assets/images/Ellipse image 1.svg" alt="Buyer 1">
-                    <img src="/assets/images/Ellipse image 2.svg" alt="Farmer 1">
-                    <img src="/assets/images/Ellipse image 3.svg" alt="Buyer 2">
-                    <img src="/assets/images/Green star.svg" alt="Green star">
-                    <span>Access by millions of farmers and buyers</span>
-                </p>
-            </div>
-            <div class="div1b">
-                <img src="/assets/images/Rectangle 1.svg" alt="">
-            </div>
             <img src="/assets/images/Yellow circle.svg" alt="">
-            <img src="/assets/images/Green circle.svg" alt="">
-            <img src="/assets/images/Yellow Star .svg" alt="">
-            <img src="/assets/images/circle 3.svg" alt="">
-        </div>
-        <div id="div2">
-            <div class="div2a">
-                <img src="/assets/images/Rectangle 2.svg" alt="">
+            <div id="FarmEaze">
+                <h1>Farm<span id="eaze">Eaze</span></h1>
             </div>
-            <div class="div2b">
+            <div>
+                <a href="#">Home</a>
+                <a href="#">Products</a>
+            </div>
+            <button id="shopnow">Shop Now</button>
+        </nav>
+    </header>
+
+    <!-- The body main contents  -->
+    <main>
+        <section>
+            <div class="hero-section">
+                <!-- hero-subsection one -->
+                <div class="hero-subsection one">
+                    <h1>FarmEaze, your one-stop-shop for all things farming and agriculture!</h1>
+                    <button id="shopnow">Shop Now</button>
+                    <div class="images-icons">
+                        <img src="/assets/images/Ellipse image 1.svg" alt="Buyer">
+                        <img src="/assets/images/Ellipse image 2.svg" alt="Farmer">
+                        <img src="/assets/images/Ellipse image 3.svg" alt="Buyer">
+                        <img src="/assets/images/Green star.svg" alt="Greenstar">
+                        <span id="accesscontent">Access by millions of farmers and buyers</span>
+                    </div>
+                </div>
+
+                <img src="/assets/images/Green circle.svg" alt="">
+                <img src="/assets/images/Yellow Star .svg" alt="">
+
+                <!-- hero-subsection two -->
+
+                <div class="image-box-one">
+                    <img src="/assets/images/Rectangle 1.svg" alt="farming lady">
+                </div>
+            </div>
+        </section>
+
+        <!-- section two of the landing page itering the hero-section HTML CODE -->
+
+        <div class="hero-section">
+            <!-- hero-subsection one -->
+            <div class="hero-subsection one">
                 <h2>Our Story</h2>
                 <p>
                     Farmers faced high production costs due to poor transport systems, complex <br>
@@ -62,118 +78,157 @@
                 </p>
                 <button>Learn More</button>
             </div>
-            <img src="/assets/images/Yellow Star 2.svg" alt="">
+
+            <img src="/assets/images/Yellow Star .svg" alt="">
+
+            <!-- hero-subsection two -->
+
+            <div class="image-box-one">
+                <img src="assets/images/Rectangle 2.svg" alt="farming man">
+            </div>
         </div>
-        <div id="div3">
-            <h3>Our Featured Product</h3>
-            <p> Order now and enjoy the best of the world's products without leaving your home</p>
-            <div class="Productcards">
-                
-                <div class="Fruits&Vegetable">
+
+
+        <!-- section three -->
+
+        <div class="featured-products">
+            <div class="featured-products-header-contents">
+                <h3>Our Featured Product</h3>
+                <p> Order now and enjoy the best of the world's products without leaving your home</p>
+            </div>
+            <div class="product-cards">
+
+                <div class="container fruit">
                     <img src="/assets/images/Fruits&Vegetables.svg" alt="Fruits & Vegetable">
                     <h4>Fruits & Vegetable</h4>
                     <p>
-                        Elevate your meals with the <br>
-                        freshest fruits and <br>
-                        vegetables from our farm to <br>
-                        your table. Our produce is <br>
-                        hand-picked with care to <br>
-                        ensure the highest quality <br>
+                        Elevate your meals with the
+                        freshest fruits and
+                        vegetables from our farm to
+                        your table. Our produce is
+                        hand-picked with care to
+                        ensure the highest quality
                         and nutritional value.
                     </p>
-                </div>         
+                </div>
 
-                <div class="Seedlings">
+                <div class="container seed">
                     <img src="/assets/images/Seedlings.svg" alt="Seedlings">
                     <h4>Seedlings</h4>
                     <p>
-                        Grow your own garden with <br> 
-                        our premium selection of <br> 
-                        seedlings. Our nursery experts <br> 
-                        carefully cultivate and nurture <br> 
-                        a variety of plant species to <br> 
-                        provide you with the highest <br> 
+                        Grow your own garden with
+                        our premium selection of
+                        seedlings. Our nursery experts
+                        carefully cultivate and nurture
+                        a variety of plant species to
+                        provide you with the highest
                         quality seedlings.
                     </p>
                 </div>
 
-                <div class="Fertilizers  & chemicalse">
+                <div class="container chemical">
                     <img src="/assets/images/Fertilizers  & chemicals.svg" alt="Fertilizers  & chemicals">
-                    <h4>Fertilizers  & chemicals</h4>
+                    <h4>Fertilizers & chemicals</h4>
                     <p>
-                        Maximize your crop yield with <br>
-                        our top-quality fertilizers and <br>
-                        chemicals. Our extensive <br>
-                        selection of products is <br>
-                        specifically designed to help <br>
-                        you achieve the best results <br>
+                        Maximize your crop yield with
+                        our top-quality fertilizers and
+                        chemicals. Our extensive
+                        selection of products is
+                        specifically designed to help
+                        you achieve the best results
                         for your crops
                     </p>
                 </div>
-                 
-                <div class="Agricultural products">
+
+                <div class="container agric">
                     <img src="/assets/images/Agricultural products.svg" alt="Agricultural products">
                     <h4>Agricultural products</h4>
                     <p>
-                        Experience the taste of fresh, <br>
-                        locally-sourced agricultural <br>
-                        produce. Our farmers work <br>
-                        hard to bring you the best <br>
-                        selection of fruits, vegetables, <br>
-                        and livestock straight from <br>
+                        Experience the taste of fresh,
+                        locally-sourced agricultural
+                        produce. Our farmers work
+                        hard to bring you the best
+                        selection of fruits, vegetables,
+                        and livestock straight from
                         their farms.
                     </p>
                 </div>
-                 <p>See all products
+                <p id="cta-products">See all products
                     <img src="/assets/images/See all products arrow.svg" alt="arrow">
-                 </p>
-            </div>
-        </div>
-        <div id="div 4">
-            <div>
-                <h2>
-                    Register with Farm<span class="Eaze">Eaze</span> today and <br>
-                    gain access to a world of convenience <br>
-                    at your fingertips.
-                </h2>
-                <p>
-                    <img src="/assets/images/Small circle 1.svg" alt="Small circle 1">
-                    Register
-                    <img src="/assets/images/Small circle 2.svg" alt="Small circle 2">
-                    Order
-                    <img src="/assets/images/Small circle 3.svg" alt="Small circle 3">
-                    Swift Delivery
                 </p>
             </div>
-                <!--  This is a comment on the statistics section-->
-            <div id="Statistics">
-                <div id="Statisticstext">
-                    <p>1000+<span>Awaiting <br>Customers</span></p>
-                    <p>500+<span>Agricultural<br>products</span></p>
+        </div>
+
+        <!-- section four -->
+
+        <div class="hero-section">
+            <!-- hero-subsection one -->
+            <div class="hero-subsection one">
+                <h2>
+                    Register with Farm<span id="eaze">Eaze</span> today and
+                    gain access to a world of convenience
+                    at your fingertips.
+                </h2>
+                <div class="cta-order">
+    
+                    <span>
+                        <img src="/assets/images/Small circle 1.svg" alt="Small circle 1">
+                        Register
+                        <img src="/assets/images/Small circle 2.svg" alt="Small circle 2">
+                        Order
+                        <img src="/assets/images/Small circle 3.svg" alt="Small circle 3">
+                        Swift Delivery
+                    </span>
                 </div>
-                <span id="Statisticsbutton">
-                    <img src="/assets/images/Green Rectangle.svg" alt="">
-                    <img src="/assets/images/Arrow 2.svg" alt="Arrow 2">
-                </span>
+                <div class="cta-product">
+                    <div class="cta-content"">
+                                <p><span>1000+</span><br> Awaiting <br>Customers</span></p>
+                                <p><span>500+</span><br>Agricultural<br>products</span></p>
+                            </div>
+                            <div id=" cta-arrow-icon">
+                        <img src="/assets/images/Arrow 2.svg" alt="Arrow 2">
+                    </div>
+                </div>
             </div>
-            <div>
-                <img src="/assets/images/Rectangle 3.svg" alt="Rectangle 3">
+
+
+            <img src="/assets/images/Yellow Star .svg" alt="">
+
+
+            <!-- hero-subsection two -->
+
+            <div class="image-box-one">
+                <img src="assets/images/Rectangle 3.svg" alt="farmland">
             </div>
         </div>
     </main>
+
+
+
+
+
+
     <footer class="footer">
+
+        <!-- the first div -->
+        <div class="footer-contents">
+            <h2 id="footer-header"> Get information about us</h2>
+            <p id="footer-paragraph">What are you looing for? Let's help You!</p>
+        </div>
+        <!-- the second div -->
+
         <div>
-            <h2 id="footertext1"> Get information about us</h2>
-            <p id="footertext2">What are you looing for? Let's join us!</p> 
+            <input type="email" id="email">
+            <span id="submit">submit</span>
         </div>
-        <div id="email button">
-            <p>Email <span>Submit</span> </p>
-        </div>
-        <div id="socialmediaicons">
+        <div id="social-media-icons">
             <img src="/assets/images/Facebook icon.svg" alt="Facebook">
             <img src="/assets/images/Instagram icon.svg" alt="Instagram">
             <img src="/assets/images/Twitter icon.svg" alt="Twitter">
         </div>
     </footer>
+
+
 </body>
+
 </html>

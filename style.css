@@ -1,48 +1,80 @@
+/* The CSS codes */
 
-/*Heading Style*/
-
-/*Body Style*/
-/*Div 1 Style*/
-#div1{
-    background-color: #F5FAF6;
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lexend', sans-serif;
 }
-*div1a{
-margin: 30px;
+
+:root {
+    --font-family: 'Lexend', sans-serif;
+    --button-color: #269B51;
+    --section-bg-color: #F5FAF6;
+    --white-color: #ffffff;
+    --black-color: #000;
 }
-/*Div 2 Style*/
-/*Div 3 Style*/
-#div3{
-    background-color: #F5FAF6;
+
+/* the navbar designs */
+
+header nav {
+    display: flex;
+    position: relative;
+    z-index: 100000000000000000000000000000000000000000;
+    justify-content: space-between;
+    margin: 0px 64px;
+    align-items: center;
 }
-/*Div 4 Style*/
 
-/* Sttistic section */
-#Statistics{
-    padding: 20px;
-    width: 550px;
-    height: 105x;
+header nav img {
+    position: absolute;
+    z-index: -1111111111111111111111111111111111;
+    height: 320px;
+    width: 332px;
+    left: -100px;
+    top: -80px;
+    border-radius: 0px;
 
-    background: #326543;
-    border-radius: 20px;
 }
-/*Footer Style*/
-.footer{
-    background-image: url(/assets/images/FooterFarmland.svg);
-    padding-left: 95px;
-    padding-top: 100px;
-    padding-bottom: 150px;
+
+ div #eaze{
+    color:var(--button-color);
 }
-#footertext1{
-    width: 465px;
-height: 45px;
 
-font-family: ;
-font-style: normal;
-font-weight: 600;
-font-size: 36px;
-line-height: 45px;
-/* identical to box height */
+nav div h1{
+font-size: 32px;
+font-weight: 500;
+}
 
+nav div a{
+    list-style-type: none;
+    text-decoration: none;
+    color: var(--black-color);
+    font-weight: 400;
+    margin-right: 29px;
 
-color: #FFFFFF;
+}
+
+#shopnow{
+border-width: 0;
+height: 40px;
+width: 99px;
+left: 1285px;
+top: 10px;
+border-radius: 4px;
+padding: 10px;
+color: var(--white-color);
+background-color: var(--button-color);
+font-family: Lexend;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+/* The Hero-Section */
+
+.hero-section{
+    display: flex;
 }
