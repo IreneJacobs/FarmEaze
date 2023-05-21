@@ -19,40 +19,48 @@
 </head>
 
 <body>
-    <header>
-        <!-- The header HTML -->
-        <nav>
-            <img src="/assets/images/Yellow circle.svg" alt="">
-            <div id="FarmEaze">
-                <h1>Farm<span id="eaze">Eaze</span></h1>
-            </div>
-            <div>
-                <a href="#">Home</a>
-                <a href="#">Products</a>
-            </div>
-            <button id="shopnow">Shop Now</button>
-        </nav>
-    </header>
+    <div id="navbar">
+
+        <header>
+            <!-- The header HTML -->
+            <nav>
+                <img src="/assets/images/Yellow circle.svg" alt="">
+                <div id="FarmEaze">
+                    <h1>Farm<span id="eaze">Eaze</span></h1>
+                </div>
+                <div>
+                    <a href="#">Home</a>
+                    <a href="#">Products</a>
+                </div>
+                <button id="shopnow">Shop Now</button>
+            </nav>
+        </header>
+    </div>
 
     <!-- The body main contents  -->
     <main>
         <section>
-            <div class="hero-section">
+            <div class="hero-section" id="section-two">
                 <!-- hero-subsection one -->
                 <div class="hero-subsection one">
                     <h1>FarmEaze, your one-stop-shop for all things farming and agriculture!</h1>
                     <button id="shopnow">Shop Now</button>
                     <div class="images-icons">
                         <img src="/assets/images/Ellipse image 1.svg" alt="Buyer">
-                        <img src="/assets/images/Ellipse image 2.svg" alt="Farmer">
-                        <img src="/assets/images/Ellipse image 3.svg" alt="Buyer">
+                        <img src="/assets/images/Ellipse image 2.svg" alt="Farmer" class="images-stack-one">
+                        <img src="/assets/images/Ellipse image 3.svg" alt="Buyer"  class="images-stack-two">
+                        
+                        <div>
                         <img src="/assets/images/Green star.svg" alt="Greenstar">
-                        <span id="accesscontent">Access by millions of farmers and buyers</span>
+                        <span id="accesscontent">
+                            Access by millions of farmers and buyers</span>
+                        </div>
                     </div>
                 </div>
-
-                <img src="/assets/images/Green circle.svg" alt="">
-                <img src="/assets/images/Yellow Star .svg" alt="">
+            <!-- <span id="green-circle">    <img src="/assets/images/Green circle.svg" alt="" > -->
+                            <img src="/assets/images/Yellow Star .svg" alt="">
+                
+            <!-- </span> -->
 
                 <!-- hero-subsection two -->
 
@@ -64,7 +72,7 @@
 
         <!-- section two of the landing page itering the hero-section HTML CODE -->
 
-        <div class="hero-section">
+        <div class="hero-section three">
             <!-- hero-subsection one -->
             <div class="hero-subsection one">
                 <h2>Our Story</h2>
@@ -76,7 +84,7 @@
                     food with media partnerships, and collects data with digital surveys. The <br>
                     platform is revolutionizing agriculture and helping farmers grow their businesses.
                 </p>
-                <button>Learn More</button>
+                <button id="learnmore">Learn More</button>
             </div>
 
             <img src="/assets/images/Yellow Star .svg" alt="">
