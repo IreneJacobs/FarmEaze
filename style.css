@@ -11,6 +11,38 @@ margin: 30px;
 }
 /*Div 2 Style*/
 /*Div 3 Style*/
+#div3{
+    background-color: #F5FAF6;
+}
 /*Div 4 Style*/
 
+/* Sttistic section */
+#Statistics{
+    padding: 20px;
+    width: 550px;
+    height: 105x;
+
+    background: #326543;
+    border-radius: 20px;
+}
 /*Footer Style*/
+.footer{
+    background-image: url(/assets/images/FooterFarmland.svg);
+    padding-left: 95px;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+#footertext1{
+    width: 465px;
+height: 45px;
+
+font-family: ;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 45px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
