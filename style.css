@@ -1,5 +1,6 @@
 /* The CSS codes */
 
+/* General body design */
 body {
     margin: 0;
     padding: 0;
@@ -19,10 +20,10 @@ body {
 
 /* the navbar designs */
 
-
-#navbar{
+#navbar {
     background-color: var(--section-bg-color);
 }
+
 header nav {
     display: flex;
     position: relative;
@@ -30,10 +31,11 @@ header nav {
     justify-content: space-between;
     margin: 0px 64px;
     align-items: center;
-    
+
 }
 
 header nav img {
+
     position: absolute;
     z-index: -1111111111111111111111111111111111;
     height: 320px;
@@ -62,7 +64,8 @@ nav div a {
 
 }
 
-#shopnow, #learnmore{
+#shopnow,
+#learnmore {
     border-width: 0;
     height: 40px;
     width: 99px;
@@ -81,14 +84,16 @@ nav div a {
 
 }
 
-/* The Hero-Section */
 
-section{
+
+/* The Hero-Section: Section-One */
+section {
     background: #F5FAF6;
     position: relative;
-    z-index:80000000000000000;
+    z-index: 80000000000000000;
 
 }
+
 .hero-section {
     display: flex;
     margin: 77px 32px 0px 64px;
@@ -100,24 +105,27 @@ section{
     align-items: center;
     margin-top: 58px;
     justify-content: space-around;
- 
-  
+
 }
 
-.images-icons{
-    margin-top: 35px;
+/* Access content & Green Star */
+#accesscontent {
     
-
 }
 
-.images-stack-one{
+.images-icons {
+    margin-top: 35px;
+}
+
+.images-stack-one {
     transform: translateX(-40px);
 }
-.images-stack-two{
+
+.images-stack-two {
     transform: translateX(-80px);
 }
 
-#section-two{
+#section-two {
     background-image: url(assets/images/Green\ circle.svg);
     background-repeat: no-repeat;
     background-position: 500px 90px;
@@ -143,10 +151,34 @@ section{
 
 }
 
-#learnmore{
-    width:120px
+#learnmore {
+    width: 120px
 }
 
-.three{
+/* Section 2 */
+.two {
     flex-direction: row-reverse;
+    justify-content: space-between
+}
+
+
+/* Section 3 */
+
+
+.product-cards {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 64px;
+}
+
+.container {
+    padding:25px;
+}
+
+/* Section 4 */
+
+/* Footer Design */
+.footer {
+    display: flex;
 }
