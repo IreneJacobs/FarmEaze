@@ -109,9 +109,7 @@ section {
 }
 
 /* Access content & Green Star */
-#accesscontent {
-    
-}
+#accesscontent {}
 
 .images-icons {
     margin-top: 35px;
@@ -125,7 +123,7 @@ section {
     transform: translateX(-80px);
 }
 
-#section-two {
+#section-one{
     background-image: url(assets/images/Green\ circle.svg);
     background-repeat: no-repeat;
     background-position: 500px 90px;
@@ -151,32 +149,100 @@ section {
 
 }
 
-#learnmore {
-    width: 120px
-}
-
 /* Section 2 */
-.two {
+.section-two{
+    background-image: url(assets/images/Yellow\ Star\ 2.svg);
+    background-repeat: no-repeat;
+    background-position: 1100px 100px;
+    background-color: var(--white-color);
+    margin-left: 0;
+    margin-right: 0;
     flex-direction: row-reverse;
-    justify-content: space-between
+    justify-content: space-between;
+    
 }
 
+.two{
+    margin-left: 64px;
+    margin-top: 200px;
+}
+
+#our-story{
+    padding-bottom: 50px;
+}
+
+#learnmore {
+    width: 120px;
+    margin-top: 20px;
+}
+
+.farming-man{
+    margin: 64px;
+    
+}
 
 /* Section 3 */
 
+.featured-products-header-contents {
+    text-align: center;
+}
 
 .product-cards {
     display: flex;
     text-align: center;
     justify-content: center;
     margin: 64px;
+    gap: 45px;
 }
 
 .container {
-    padding:25px;
+    padding: 30px;
 }
 
+.fruit,
+.seed,
+.chemical,
+.agric {
+    background-color: var(--white-color);
+    padding: 25px;
+    width: 200px;
+    height: 306px;
+    box-shadow: 0px 1px 28px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+#cta-products {
+    text-align: center;
+    color: var(--button-color);
+}
+
+
 /* Section 4 */
+
+.four {
+    margin: 64px;
+    font-family: Lexend;
+    font-size: 36px;
+    font-weight: 500;
+    text-align: left;
+    width: 600px;
+
+
+    /* font-family: Lexend;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 68px;
+    letter-spacing: 0em;
+    text-align: left;
+
+     */
+}
+
+.section-four {
+    background-color: var(--white-color);
+    margin-left: 0;
+    margin-right: 0;
+}
 
 /* Footer Design */
 .footer {
