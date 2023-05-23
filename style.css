@@ -123,7 +123,7 @@ section {
     transform: translateX(-80px);
 }
 
-#section-one{
+#section-one {
     background-image: url(assets/images/Green\ circle.svg);
     background-repeat: no-repeat;
     background-position: 500px 90px;
@@ -150,7 +150,7 @@ section {
 }
 
 /* Section 2 */
-.section-two{
+.section-two {
     background-image: url(assets/images/Yellow\ Star\ 2.svg);
     background-repeat: no-repeat;
     background-position: 1100px 100px;
@@ -159,15 +159,15 @@ section {
     margin-right: 0;
     flex-direction: row-reverse;
     justify-content: space-between;
-    
+
 }
 
-.two{
+.two {
     margin-left: 64px;
     margin-top: 200px;
 }
 
-#our-story{
+#our-story {
     padding-bottom: 50px;
 }
 
@@ -176,9 +176,12 @@ section {
     margin-top: 20px;
 }
 
-.farming-man{
+.farming-man {
     margin: 64px;
-    
+    max-width: 100%;
+    height: 80%;
+    float: right;
+
 }
 
 /* Section 3 */
@@ -205,7 +208,7 @@ section {
 .agric {
     background-color: var(--white-color);
     padding: 25px;
-    width: 200px;
+    width: 210px;
     height: 306px;
     box-shadow: 0px 1px 28px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
@@ -219,30 +222,69 @@ section {
 
 /* Section 4 */
 
+.farmland {
+    margin: 64px;
+    max-width: 100%;
+    height: 80%;
+    float: right;
+
+}
+
+
 .four {
     margin: 64px;
     font-family: Lexend;
+    font-style: normal;
     font-size: 36px;
     font-weight: 500;
     text-align: left;
-    width: 600px;
-
-
-    /* font-family: Lexend;
-    font-size: 48px;
-    font-weight: 500;
-    line-height: 68px;
-    letter-spacing: 0em;
-    text-align: left;
-
-     */
+    width: 678px;
 }
 
 .section-four {
+    background-image: url(assets/images/Yellow\ Star\ 2.svg);
+    background-repeat: no-repeat;
+    background-position: 700px 0;
     background-color: var(--white-color);
     margin-left: 0;
     margin-right: 0;
+    justify-content: space-between;
+    background-color: var(--white-color);
 }
+
+#register-contents {
+    font-family: Lexend;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.cta-order {
+    margin-top: 30px;
+}
+
+.cta-statistics {
+    background-color: var(--button-color);
+
+    width: 550px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    gap: 60px;
+}
+
+.cta-content {
+    font-weight: 300;
+    color: var(--white-color);
+    font-size:16px;
+
+}
+
 
 /* Footer Design */
 .footer {
